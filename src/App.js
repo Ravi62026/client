@@ -12,7 +12,7 @@ const App = () => {
         setResponse(null);
 
         try {
-            const res = await fetch("https://render-deploy-2-d8xf.onrender.com/api/point-analyze", {
+            const res = await fetch("https://render-deploy-3-fjof.onrender.com/api/point-analyze", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
